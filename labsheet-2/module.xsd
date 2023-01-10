@@ -1,0 +1,42 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="ResoucePersonType">
+        <xs:choice>
+            <xs:sequence>
+                <xs:element type="xs:string" name="Name" />
+                <xs:element type="xs:string" name="Surname" />
+            </xs:sequence>
+            <xs:element type="xs:string" name="fullName" />
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:simpleType name="ModuleCodeType">
+        <xs:restriction base="xs:string">
+            <!-- <xs:pattern value="^(CSE)([0-9][0-9][0-9][0-9])(y?)" /> -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="levelType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="3" />
+        </xs:restriction>
+    </xs:simpleType>
+  
+    <xs:element name="Modules">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Module" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="Name" />
+                            <xs:element type="levelType" name="Level" />
+                            <xs:element name="ResourcePerson" type="ResoucePersonType"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="ModuleCodeType" name="code" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

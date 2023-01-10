@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Modules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="module.xsd">
+
+    <Module code="CSE2041">
+        <Name>Web Technologies II</Name>
+        <Level>2</Level>
+        <ResourcePerson>
+            <Name>Shehzad</Name>
+            <Surname>Jaunbuccus</Surname>
+        </ResourcePerson>
+    </Module>
+
+    <Module code="CSE1246">
+        <Name>Applied Data Structures and Algorithms</Name>
+        <Level>1</Level>
+        <ResourcePerson>
+            <Name>Anwar</Name>
+            <Surname>Chutoo</Surname>
+        </ResourcePerson>
+    </Module>
+</Modules>
