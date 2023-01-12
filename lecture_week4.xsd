@@ -1,0 +1,73 @@
+<!-- pg-16 -->
+<!-- 
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema- instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="employee">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Name">
+                <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="FirstName" type="xs:string"/>
+                    <xs:element name="lastName" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="salary" type="xs:integer"/>
+            <xs:element name="Bio">
+                <xs:complexType mixed="true">
+                    <xs:sequence>
+                        <xs:element name="company" type="xs:string"/>
+                        <xs:element name="jobTitle" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema> -->
+
+<!-- pg30 -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema- instance" attributeFormDefault="unqualified"
+    elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="modules">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="module" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="shortName" type="xs:string" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="level">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1" />
+                                        <xs:maxInclusive value="5" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="resourcePerson">
+                                <xs:complexType>
+                                    <xs:choice>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Name" />
+                                            <xs:element type="xs:string" name="Surname" />
+                                        </xs:sequence>
+                                        <xs:element type="xs:string" name="fullName" />
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="code" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
