@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="hello.xsd">
+
+    <title>Hello</title>
+    <body>
+        <paragraph>
+            <content>This is some content.</content>
+            <comment>Written by ABC.</comment>
+        </paragraph>
+        <paragraph>
+            <content>This is another paragraph.</content>
+            <comment>Written by XYZ.</comment>
+        </paragraph>
+    </body>
+</page>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="module.xsl"?>
+<Modules>
+    <module code="CSE2041">
+        <name>Web Technologies II</name>
+        <credit>3</credit>
+        <level>2</level>
+    </module>
+    <module code="CSE2031Y">
+        <name>Object Oriented Software Development</name>
+        <credit>6</credit>
+        <level>2</level>
+    </module>
+    <module code="CSE1041">
+        <name>Web Technologies I</name>
+        <credit>3</credit>
+        <level>1</level>
+    </module>
+</Modules>

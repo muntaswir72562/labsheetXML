@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<books>
+    <book id="001">
+        <isbn>0465044050</isbn>
+        <title>Birth of the Mind</title>
+        <author>
+            <firstname>Gary</firstname>
+            <lastname>Marcus</lastname>
+
+        </author>
+        <publisher>Basic Books</publisher>
+        <year>2004</year>
+        <price>17.68</price>
+        <picture>0465044050.gif</picture>
+        <description>The first book to show precisely how genes build the wonders of the human
+            brain, and why the Human Genome project could radically alter our view of the world.
+            Scientists have struggled to understand how a tiny number of genes could contain the
+            instructions for building the human brain, arguably the most complex device in the known
+            universe. Synthesizing up-to-the-minute biology with his own original findings on child
+            development, Marcus dispels the common misconceptions people harbor about genes, and
+            explores the stunning implications of this research for the future of genetic
+            engineering.</description>
+        <link>description001.html</link>
+    </book>
+
+    <book id="002">
+        <isbn>0192860925</isbn>
+        <title>The Selfish Gene</title>
+        <author>
+            <firstname>Richard</firstname>
+            <lastname>Dawkins</lastname>
+        </author>
+
+        <publisher>Oxford University Press</publisher>
+        <year>1990</year>
+        <price>10.47</price>
+        <picture>0192860925.gif</picture>
+        <description>Inheriting the mantle of revolutionary biologist from Darwin, Watson, and
+            Crick, Richard Dawkins forced an enormous change in the way we see ourselves and the
+            world with the publication of The Selfish Gene. Suppose, instead of thinking about
+            organisms using genes to reproduce themselves, as we had since Mendel's work was
+            rediscovered, we turn it around and imagine that our genes build and maintain us in
+            order to make more genes. That simple reversal seems to answer many puzzlers which had
+            stumped scientists for years, and we haven't thought of evolution in the same way since.</description>
+        <link>description002.html</link>
+    </book>
+
+    <book id="003">
+        <isbn>0375412883</isbn>
+        <title>The Fabric of the Cosmos</title>
+        <author>
+            <firstname>Brian</firstname>
+            <lastname>Greene</lastname>
+        </author>
+
+        <publisher>Knopf</publisher>
+        <year>2004</year>
+        <price>19.69</price>
+        <picture>0375412883.gif</picture>
+        <description>Focusing on the enigma of time, Greene establishes that nothing in the laws of
+            physics insists that it run in any particular direction and that "time's arrow" is a
+            relic of the universe's condition at the moment of the big bang. And in explaining the
+            big bang itself, Greene shows how recent cutting-edge developments in superstring and
+            M-theory may reconcile the behavior of everything from the smallest particle to the
+            largest black hole. This startling vision culminates in a vibrant eleven-dimensional
+            "multiverse," pulsating with ever-changing textures, where space and time themselves may
+            dissolve into subtler, more fundamental entities.</description>
+        <link>description003.html</link>
+    </book>
+    <book id="004">
+
+        <isbn>0674002350</isbn>
+        <title>Sociobiology: The New Synthesis</title>
+        <author>
+            <firstname>Edward</firstname>
+            <lastname>Wilson</lastname>
+        </author>
+        <publisher>Belknap Press</publisher>
+
+        <year>2000</year>
+        <price>19.56</price>
+        <picture>0674002350.gif</picture>
+        <description>When this classic work was first published in 1975, it created a new discipline
+            and started a tumultuous round in the age-old nature versus nurture debate. Although
+            voted by officers and fellows of the international Animal Behavior Society the most
+            important book on animal behavior of all time, Sociobiology is probably more widely
+            known as the object of bitter attacks by social scientists and other scholars who
+            opposed its claim that human social behavior, indeed human nature, has a biological
+            foundation.</description>
+        <link>description004.html</link>
+    </book>
+    <book id="005">
+        <isbn>0142001783</isbn>
+
+        <title>Synaptic Self</title>
+        <author>
+            <firstname>Joseph</firstname>
+            <lastname>LeDoux</lastname>
+        </author>
+        <publisher>Penguin Books</publisher>
+        <year>2003</year>
+
+        <price>11.20</price>
+        <picture>0142001783.gif</picture>
+        <description>To Joseph LeDoux, the simple question, "What makes us who we are?" represents
+            the driving force behind his 20-plus years of research into the cognitive, emotional,
+            and motivational functions of the brain. LeDoux believes the answer rests in the
+            synapses, key players in the brain's intricately designed communication system. In other
+            words, the pathways by which a person's "hardwired" responses (nature) mesh with his or
+            her unique life experiences (nurture) determine that person's individuality. Here,
+            LeDoux nimbly compresses centuries of philosophy, psychology, and biology into an
+            amazingly clear picture of humanity's journey toward understanding the self.</description>
+        <link>description005.html</link>
+    </book>
+    <book id="006">
+        <isbn>0262632683</isbn>
+        <title>The Algebraic Mind</title>
+
+        <author>
+            <firstname>Gary</firstname>
+            <lastname>Marcus</lastname>
+        </author>
+        <publisher>Bradford Books</publisher>
+        <year>2003</year>
+        <price>19.25</price>
+
+        <picture>0262632683.gif</picture>
+        <description>In "The Algebraic Mind" Gary Marcus attempts to integrate two theories about
+            how the mind works, one that says that the mind is a computer-like manipulator of
+            symbols, and another that says that the mind is a large network of neurons working
+            together in parallel. Resisting the conventional wisdom that says that if the mind is a
+            large neural network it cannot simultaneously be a manipulator of symbols, Marcus
+            outlines a variety of ways in which neural systems could be organized so as to
+            manipulate symbols, and he shows why such systems are more likely to provide an adequate
+            substrate for language and cognition than neural systems that are inconsistent with the
+            manipulation of symbols.</description>
+        <link>description006.html</link>
+    </book>
+    <book id="007">
+        <isbn>0375708111</isbn>
+        <title>The Elegant Universe</title>
+        <author>
+
+            <firstname>Brian</firstname>
+            <lastname>Greene</lastname>
+        </author>
+        <publisher>Vintage</publisher>
+        <year>2000</year>
+        <price>11.17</price>
+
+        <picture>0375708111.gif</picture>
+        <description>In a rare blend of scientific insight and writing as elegant as the theories it
+            explains, Brian Greene, one of the world's leading string theorists, peels away the
+            layers of mystery surrounding string theory to reveal a universe that consists of 11
+            dimensions where the fabric of space tears and repairs itself, and all matter-from the
+            smallest quarks to the most gargantuan supernovas-is generated by the vibrations of
+            microscopically tiny loops of energy. Green uses everything from an amusement park ride
+            to ants on a garden hose to illustrate the beautiful yet bizarre realities that modern
+            physics is unveiling.</description>
+        <link>description007.html</link>
+    </book>
+</books>

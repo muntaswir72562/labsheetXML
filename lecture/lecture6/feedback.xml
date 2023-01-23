@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="feedback.xsl"?>
+<feedback>
+    <module>
+        <studentemail>s1@uom.ac.mu</studentemail>
+        <modulename code="CSE2041">Web Tech II</modulename>
+        <moduleyear>2008</moduleyear>
+        <classsize>Adequate</classsize>
+        <deliverymode>yes</deliverymode>
+        <labs></labs>
+    </module>
+    <module>
+        <studentemail>s3@uom.ac.mu</studentemail>
+        <modulename code="CSE1041">Web Tech I</modulename>
+        <moduleyear>2010</moduleyear>
+        <classsize>Adequate</classsize>
+    </module>
+    <module>
+        <studentemail>s3@uom.ac.mu</studentemail>
+        <modulename code="CSE2041">Web Tech II</modulename>
+        <moduleyear>2010</moduleyear>
+        <classsize>Adequate</classsize>
+    </module>
+    <module>Feedback for the module <studentemail>s0@uom.ac.mu</studentemail>
+        <modulename
+            code="CSE2041">Web Tech II</modulename>
+        <moduleyear>2008</moduleyear>
+        <classsize>Adequate</classsize>
+        <deliverymode>
+        yes</deliverymode>
+        <labs></labs>
+    </module>
+</feedback>

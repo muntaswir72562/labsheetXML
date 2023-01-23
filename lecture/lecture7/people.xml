@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="people.xsl"?>
+<People>
+    <Person>
+        <Name>Winston Churchill</Name>
+        <Description>Winston Churchill was a..</Description>
+    </Person>
+    <Person>
+        <Name>Indira Gandhi</Name>
+        <Description>Indira Gandhi was India's..</Description>
+    </Person>
+    <Person>
+        <Name>John F. Kennedy</Name>
+        <Description>JFK was a US president..</Description>
+    </Person>
+</People>
