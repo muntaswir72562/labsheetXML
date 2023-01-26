@@ -8,14 +8,11 @@
         <img src="car1.jpg"></img>
     </Car>
     <Car Reconditioned="no"> 
-        <Description>
         This model of car is a best-seller. 
-    </Description>
         <Brand>Nissan</Brand>
-<Model>March</Model>
-<Number>99
-        ZX 09</Number>
-<img src="car2.jpg"></img>
+        <Model>March</Model>
+        <Number>99 ZX 09</Number>
+        <img src="car2.jpg"></img>
     </Car>
     <Car Reconditioned="yes">
         <Brand>Kia</Brand>

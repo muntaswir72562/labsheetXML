@@ -6,31 +6,31 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <html>
     <body>
         
-        <xsl:for-each select="Car/Cars">
+        <xsl:for-each select="Cars/Car">
         <b>
-            Brand
+            Brand:
         </b>
         <span><xsl:value-of select="Brand" /></span><br/>
 
         <b>
-            Model
+            Model:
         </b>
         <span><xsl:value-of select="Model" /></span><br/>
 
         <b>
-            Number
+            Number:
         </b>
         <span><xsl:value-of select="Number" /></span><br/>
 
         <b>
-            Description
+            Description(if any):
         </b>
-        <span><xsl:value-of select="Description" /></span><br/>
+        <span><xsl:copy-of select="text()"/></span><br/>
 
         <b>
-            Reconditioned
+            Reconditioned:
         </b>
-        <span><xsl:value-of select="Car/@Reconditioned" /></span><br/>
+        <span><xsl:value-of select="@Reconditioned" /></span><br/>
     </xsl:for-each>
     </body>
 </html>

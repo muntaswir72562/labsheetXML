@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema- instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Cars">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- missing code here -->
+                <xs:element name="Car" maxOccurs="unbounded">
+                    <xs:complexType  mixed="true">
+                        <xs:sequence>
+                        <xs:element name="Brand" type="xs:string"/>
+                        <xs:element name="Model" type="xs:string"/>
+                        <xs:element name="Number" type="xs:string"/>
+                        <xs:element name="img">
+                            <xs:complexType>
+                                <xs:attribute name = "src" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name = "Reconditioned" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
