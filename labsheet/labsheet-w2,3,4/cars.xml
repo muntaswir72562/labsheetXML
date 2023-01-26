@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<Cars>
+    <Car Reconditioned="yes">
+        <Brand>Toyota</Brand>
+        <Model>Vitz</Model>
+        <Number>8099 ZN 00</Number>
+        <img src="car1.jpg"></img>
+    </Car>
+    <Car Reconditioned="no"> 
+        <Description>
+        This model of car is a best-seller. 
+    </Description>
+        <Brand>Nissan</Brand>
+<Model>March</Model>
+<Number>99
+        ZX 09</Number>
+<img src="car2.jpg"></img>
+    </Car>
+    <Car Reconditioned="yes">
+        <Brand>Kia</Brand>
+        <Model>Picanto</Model>
+        <Number>1238 ZX 10</Number>
+        <img src="car3.jpg"></img>
+    </Car>
+</Cars>
