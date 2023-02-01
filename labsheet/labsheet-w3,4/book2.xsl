@@ -18,7 +18,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <xsl:for-each select="books/book">
                 <tr>
                    
-                    <td><xsl:value-of select="photo"/></td>
+                    <td><img src="{picture}" alt=""/></td>
                     <td><xsl:value-of select="isbn"/></td>
                     <td><a href="{link}"><xsl:value-of select="title"/></a></td>
                     <td><xsl:value-of select="author/firstname"/>,<xsl:value-of select="author/lastname"/></td>
